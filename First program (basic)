@@ -1,0 +1,26 @@
+using System;
+
+namespace Temperatura
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(" Ingrese la temperatura de su ciudad");
+
+            string temp = Console.ReadLine();
+            int temperatura = int.Parse(temp);
+
+            if(temperatura < 15)
+            {
+                Console.WriteLine("Abrigate, hace frio");
+            }
+            else 
+            {
+                Console.WriteLine(" Hace calor, usa ropa de playa");
+            }
+
+            Console.Read();
+        }
+    }
+}
