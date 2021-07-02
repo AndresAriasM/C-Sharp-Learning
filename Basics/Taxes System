@@ -1,6 +1,6 @@
 using System;
 
-namespace Parte_7
+namespace Taxes_System
 {
     class Program
     {
