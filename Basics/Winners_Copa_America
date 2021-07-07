@@ -39,6 +39,7 @@ namespace Winners_Copa_America
                     break;
             }
                 
+            Console.Read();    
         }
     }
 }
