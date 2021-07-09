@@ -12,6 +12,22 @@ namespace Loops
             {
                 Console.WriteLine(odd + " is an odd number");
             }
+            
+          Console.Read();
           
         -------------------------------------------------------------------------------------------------------------------------------
           */
+
+          /*
+
+           int random = 0;
+
+            Console.WriteLine("It shows all numbers between 0 and 100");    // Do and while
+
+            do
+            {
+                Console.WriteLine(random);
+                random++;
+            } while (random <= 100);
+
+            Console.Read();
