@@ -1,6 +1,6 @@
 using System;
 
-namespace Parte_9
+namespace Number_Counter
 {
     class Program
     { 
