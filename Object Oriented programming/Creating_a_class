@@ -1,0 +1,47 @@
+using System;
+
+namespace Creating_a_class
+{
+    class Object
+    {
+        public string Name; // Variable
+
+        public void Introduction() // Method
+        { 
+            Console.WriteLine("Hi, this is a {0}", Name);
+        }
+         
+        
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+using System;
+
+namespace Creating_a_class
+{
+    class Program
+    { 
+ 
+        static void Main(string[] args)
+        {
+            Object Stick = new Object();                   // Creating a object in this class
+
+            Stick.Name = "Stick";                       // Accessing an external variable
+
+            Stick.Introduction();                    // Applying the class method
+
+
+            Object Car = new Object();
+
+            Car.Name = "Car";                   // Second object created
+
+            Car.Introduction();
+
+            Console.Read();
+        }
+        
+    }
+}
+
