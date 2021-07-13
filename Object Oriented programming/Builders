@@ -1,0 +1,49 @@
+using System;
+
+namespace Parte_9
+{
+    class Object
+    {
+        private string Name; // Variable
+        private string Description;
+
+        public Object(string Description, string Name)
+        {
+            this.Name = Name;
+            this.Description = Description;
+        }
+        
+
+        public void Introduction() // Method
+        {
+            Console.WriteLine("Hi, this is a {0} {1}", Description, Name); 
+        }
+         
+        
+    }
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+using System;
+
+namespace Parte_9
+{
+    class Program
+    { 
+ 
+        static void Main(string[] args)
+        {
+            Object Stick = new Object("Small", "Stick");
+
+            Object Car = new Object("Fast", "Car");
+
+
+            Stick.Introduction();
+            Car.Introduction();
+
+            Console.Read();
+        }
+        
+    }
+}
