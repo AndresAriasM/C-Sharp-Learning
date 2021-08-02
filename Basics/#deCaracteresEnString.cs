@@ -13,7 +13,7 @@ namespace #deCaracteresEnString
             Console.WriteLine("Ingrese una palabra aleatoria");
             string Entrada = Console.ReadLine();
 
-            Console.WriteLine("Ahora ingrese una letra perteneciente a la palabra que anteriormente ingresaste, el programa te dira cuantas veces esta esa letra en la palabra");
+            Console.WriteLine("Ahora ingrese una letra perteneciente a la palabra que anteriormente ingresasada, el programa te dira cuantas veces esta esa letra en la palabra");
             string caracter = Console.ReadLine();
 
             int contador = Regex.Matches(Entrada,caracter).Count; // Expresión ligada a (using System.Text.RegularExpressions;)
