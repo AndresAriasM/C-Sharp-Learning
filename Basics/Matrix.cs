@@ -24,7 +24,7 @@ namespace Matrix
             {
                 for (int column = 0; column < 4; column++)
                 {
-                    Console.WriteLine(" " + number[line, column]);
+                    Console.Write(" " + number[line, column]);
                 }
 
                 Console.WriteLine(); 
