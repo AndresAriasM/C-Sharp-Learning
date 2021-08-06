@@ -26,18 +26,21 @@ namespace ChangeValuesVector
             Console.WriteLine("The position of " + index + " is " + mystery);
             Console.WriteLine("");
 
-            Console.WriteLine("If you want to replace some value press 1, otherwise press 2 to finish the program");
-            int option = Convert.ToInt32(Console.ReadLine());
+            int option;
 
             do
             {
+                Console.WriteLine("If you want to replace some value press 1, otherwise press 2 to finish the program");
+                option = Convert.ToInt32(Console.ReadLine());
+
                 if (option == 1)
                 {
                     Console.WriteLine("Enter the position you want to replace");
                     int position = Convert.ToInt32(Console.ReadLine());
 
                     do
-                    {                    
+                    {
+
                         if (position >= 0 && position < vector.Length)
                         {
                             Console.WriteLine("Enter the new value for this position");
